@@ -1,0 +1,23 @@
+{
+  "name": "zip-folder-cli",
+  "version": "1.0.1",
+  "description": "zip a folder cli",
+  "bin": {
+    "zip-folder": "./bin.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhoujianlin8/zip-folder-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "inquirer": "^7.0.0",
+    "minimist": "^1.2.0"
+  }
+}
